@@ -1,0 +1,39 @@
+body {
+	background: black;
+}
+
+.editor {
+	display: flex;
+	width: 800px;
+	height: 600px;
+}
+
+.tab-bar li {
+	min-width: 6px;
+	max-width: 121px;
+	font-size: 12px;
+}
+
+.tab-bar li {
+	background-color: #444;
+	color: white;
+	margin-left: 2px;
+	cursor: default;
+}
+
+.files-item {
+	cursor: default;
+}
+
+.files-icon.chevron {
+	margin-left: -1em;
+}
+.files-dir {
+	margin-left: 0.5em;
+}
+.files-icon:not(.chevron) {
+	padding-left: 4px;
+}
+.files-label {
+	margin-left: 0.5em;
+}
